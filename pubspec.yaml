@@ -1,0 +1,37 @@
+name: samagra_krishi
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.2 
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.4.2
+  firebase_database: ^11.0.0
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/farmer.png
+    - assets/images/tractor.png
+    - assets/images/weather.jpg
+    - assets/images/crops.jpg
+    - assets/images/schemes.jpg
+    - assets/images/rice.png
+    - assets/images/wheat.png
+    - assets/images/maize.png
+    - assets/images/weather2.jpg
